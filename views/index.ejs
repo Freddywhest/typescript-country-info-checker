@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/css/style.css">
+    <title><%= title %></title>
+</head>
+<body>
+    <div class="form-container">
+        <form id="countryForm" autocomplete="off">
+            <div class="feedbackMsg"></div>
+            <div class="form-control">
+                <label for="country">Country Name</label>
+                <input type="search" name="country" id="country" />
+            </div>
+            <div class="button-container">
+                <button class="search">Search</button>
+            </div>
+        </form>
+        <div class="sug-countries"></div>
+    </div>
+    <div class="result-div">
+        <div class="result-container"></div>
+    </div>
+</body>
+<script src="/dist/js/script.js"></script>
+</html>
